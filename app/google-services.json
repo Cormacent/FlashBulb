@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "471634216519",
+    "firebase_url": "https://flashbulb.firebaseio.com",
+    "project_id": "flashbulb",
+    "storage_bucket": "flashbulb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471634216519:android:4d238933fe733f94",
+        "android_client_info": {
+          "package_name": "com.example.flashbulb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471634216519-e2ms3qvihuko6ponma37p6iojdecilvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flashbulb",
+            "certificate_hash": "4bfe1979493f30fe7f5f127224237569c874f676"
+          }
+        },
+        {
+          "client_id": "471634216519-ll30rtp10lrm1cdj8eg7fa1mandp0fd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKiV5mniRjnsKvUYOsdgcglBPzl_8Oa-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471634216519-ll30rtp10lrm1cdj8eg7fa1mandp0fd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

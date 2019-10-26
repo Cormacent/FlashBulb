@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D04545</color>
+    <color name="colorPrimaryDark">#AA0A0A</color>
+    <color name="colorAccent">#BD3E3E</color>
+    <color name="colorbutton">#696</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="graylight">#fafafa</color>
+    <color name="white">#FFFFFF</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!--buat color button intro-->
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+    <!--buat warna tab dan screen text-->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+</resources>

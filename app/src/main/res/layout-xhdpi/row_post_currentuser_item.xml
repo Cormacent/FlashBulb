@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img_pic"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="145dp"
+        app:srcCompat="@drawable/black_gradient" />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gradient"
+        android:layout_marginLeft="15dp"
+        android:hint="Ini TItle"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp" />
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:id="@+id/PostRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="15dp"
+        android:numStars="5"
+        android:stepSize="0.1"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:isIndicator="true"
+        style="@style/Widget.MaterialRatingBar.RatingBar.Indicator"
+        app:mrb_progressTint="@color/colorPrimaryDark"
+        app:mrb_secondaryProgressTint="@color/cardview_dark_background"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/userphoto"
+        android:layout_alignRight="@+id/gradient"
+        android:layout_alignTop="@+id/gradient"
+        android:layout_marginTop="15dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/delete"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/deletePost"/>
+</RelativeLayout>

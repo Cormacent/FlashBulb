@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FlashBulb</string>
+    <string name="title_activity_public">Public</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_public_post">PublicPost</string>
+    <string name="guide">Cara Menggunakan Aplikasi :
+                \n1. Tampilan beranda akan menampilkan semua posting pengguna, Anda dapat melihat posting pengguna, membuat posting dan melihat profil Anda sendiri..
+                \n2. Jika Anda mengklik tombol profil gambar di bagian atas layar beranda, Anda dapat melihat data profil Anda, Anda dapat mengklik logout untuk menghapus akun dan Anda dapat melihat posting Anda jika Anda mengklik nomor posting Anda untuk melihat atau menghapus post anda
+                \n3. Terdapat tampilan tombol menu pada bagian beranda berbentuk ( + ) Anda dapat menggunakan tiga tombol, yang biru untuk Info, merah untuk Creat Post dan kuning untuk melihat peringkat 5 posting teratas.
+                \n4. Jika Anda mengklik tombol biru maka Anda dapat membuat posting Anda, isi persyaratan dan klik gambar untuk memilih, maka Anda dapat mengklik tombol di tengah untuk membuat posting Anda
+                \n5. Jika Anda mengklik posting mana saja, tampilan akan pergi ke bagian ini untuk melihat detail posting, Anda dapat mengklik bintang untuk memberi peringkat posting, atau Anda dapat mengklik profil gambar untuk melihat profil pengguna lain, dan Anda dapat mengomentari posting ini
+                \n6. Anda dapat memberikan skor atau peringkat dengan menggeser bintang-bintang atau klik saja</string>
+</resources>

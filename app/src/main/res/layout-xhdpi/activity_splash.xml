@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Splash">
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash1"
+        android:scaleType="center"/>
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLASHBULB"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:textColor="#FF00"/>
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:text="Try to Snap First !"
+        android:layout_below="@+id/judul"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    <com.eyalbira.loadingdots.LoadingDots
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:LoadingDots_auto_play="true"
+        app:LoadingDots_dots_color="#DCDCDC"
+        app:LoadingDots_dots_count="4"
+        app:LoadingDots_dots_size="15dp"
+        app:LoadingDots_dots_space="3dp"
+        app:LoadingDots_jump_duration="300"
+        app:LoadingDots_jump_height="15dp"/>
+</RelativeLayout>
